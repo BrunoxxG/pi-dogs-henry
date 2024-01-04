@@ -1,0 +1,33 @@
+.title {
+  margin-top: 10%; /* Reduje el margen superior para centrar el título verticalmente */
+  font-size: 48px; /* Reduje el tamaño del título */
+  font-weight: 700; /* Aumenté el peso de la fuente para hacerla más audaz */
+  font-family: 'Caprasimo', sans-serif; /* Añadí comillas y sans-serif como fuente de respaldo */
+  color: #031220;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.btn {
+  font-family: 'Rancho', cursive; /* Añadí comillas y especificé 'cursive' como fuente */
+  letter-spacing: 0.1em; /* Reduje el espaciado entre letras */
+  padding: 15px 25px; /* Ajusté el espaciado interno del botón */
+  background: #bdbebf; /* Cambié el fondo a rojo */
+  border: none; /* Eliminé el borde del botón */
+  font-size: 24px; /* Reduje el tamaño del texto del botón */
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s, box-shadow 0.3s; /* Añadí transiciones de animación */
+  border-radius: 12px;
+  font-weight: 600; /* Aumenté el peso de la fuente para hacerla más audaz */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Suave sombra */
+  text-align: center; /* Centra el texto horizontalmente */
+  display: block; /* Hace que el botón sea un bloque para centrarlo */
+  margin: 20px auto; /* Centra el botón horizontalmente */
+  text-decoration: none; /* Elimina el subrayado de los enlaces dentro del botón */
+}
+
+.btn:hover {
+  background: #f4f1f2; /* Cambio de color de fondo en el hover */
+}

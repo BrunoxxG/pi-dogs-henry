@@ -1,0 +1,14 @@
+.card {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.card img {
+  width: 200px;
+}
+
+
+.cardContainer {
+  padding: 10px;
+
+}

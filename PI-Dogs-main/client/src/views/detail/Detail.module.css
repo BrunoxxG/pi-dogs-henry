@@ -1,0 +1,37 @@
+.navlink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(153, 144, 144, 0.342); /* Cambié el color a un tono de rojo */
+  color: white; /* Cambié el color del texto a blanco */
+  padding: 10px 20px; /* Añadí espaciado interno para un aspecto más limpio */
+}
+
+.arrow {
+  font-size: 24px; /* Reduje el tamaño del ícono de flecha */
+  margin-right: 10px; /* Añadí un espacio entre la flecha y el texto */
+}
+
+img {
+  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+}
+
+h2, h3 {
+  margin: 10px 0; /* Añadí un espacio entre los encabezados y otros elementos */
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Un color de fondo más claro */
+  border: 1px solid #ddd; /* Un borde para resaltar el contenido */
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+.temperament {
+  font-style: italic;
+  color: #666; /* Un tono de gris para los temperamentos */
+}
